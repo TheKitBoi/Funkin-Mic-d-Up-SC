@@ -53,6 +53,8 @@ jobs:
           haxelib install random
           haxelib git hscript-plus https://github.com/DleanJeans/hscript-plus/
           haxelib git systools https://github.com/haya3218/systools
+          haxelib git extension-webm https://github.com/KadeDev/extension-webm
+          haxelib run lime rebuild extension-webm
           haxelib list
       - name: Create APIStuff
         uses: "finnp/create-file-action@master"
@@ -102,6 +104,8 @@ jobs:
           haxelib install random
           haxelib git hscript-plus https://github.com/DleanJeans/hscript-plus/
           haxelib git systools https://github.com/haya3218/systools
+          haxelib git extension-webm https://github.com/KadeDev/extension-webm
+          haxelib run lime rebuild extension-webm
           haxelib list
         shell: cmd
       - name: Create APIStuff
@@ -149,6 +153,8 @@ jobs:
           haxelib install random
           haxelib git hscript-plus https://github.com/DleanJeans/hscript-plus/
           haxelib git systools https://github.com/haya3218/systools
+          haxelib git extension-webm https://github.com/KadeDev/extension-webm
+          haxelib run lime rebuild extension-webm
           haxelib list
       - name: Create APIStuff
         run: echo "package;class APIStuff{public static var API:String = '';public static var EncKey:String = '';}" > source/APIStuff.hx
