@@ -41,6 +41,7 @@ jobs:
           haxelib install hscript-plus
           haxelib install seedyrng
           haxelib install random
+          haxelib install systools
           haxelib git faxe https://github.com/uhrobots/faxe
           haxelib git polymod https://github.com/MasterEric/polymod.git
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
@@ -50,6 +51,7 @@ jobs:
           haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit
           haxelib git flixel-addons https://github.com/HaxeFlixel/flixel-addons
           haxelib git hscript-plus https://github.com/DleanJeans/hscript-plus
+          haxelib run lime rebuild systools windows
           haxelib install actuate 
           haxelib run lime build html5
           
